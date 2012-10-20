@@ -193,3 +193,10 @@ img
     margin: 0 20px;
   }
 }
+
+@media only screen and (max-width:480px) {
+  body
+  {
+    margin: 0;
+  }
+}

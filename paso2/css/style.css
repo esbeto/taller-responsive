@@ -1,0 +1,176 @@
+/* 
+	Taller CSS
+	Autor: Heriberto Cantú (es.beto@gmail.com)
+	Octubre 2012  
+*/
+
+body 
+{
+	background: #eee;
+	margin: 0 50px;
+	font-family: sans-serif;
+}
+
+img 
+{
+  display: block;
+}
+
+
+.main-container
+{
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 #AAA;
+	width: 1024px;
+	margin: 0 auto;		  /* Centrar contenido cuando llega al límite */
+
+}
+
+.header
+{
+  position: relative;
+}
+.bg img
+{
+  width: 100%;
+}
+.logo 
+{
+	position: absolute;
+  top: 10%;
+  margin-bottom: 10px;
+  left: 1%;
+  width: 25%;
+}
+
+/**
+ *  Navegación
+ */
+
+.navigation 
+{
+	clear: both;
+	overflow: hidden;
+  margin-top: -1px;     /* pixel blanco */
+}
+
+.nav 
+{
+  background-color: #333;
+  border-bottom: 3px solid #FDD51B;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.nav li
+{
+	float: left;
+}
+
+
+
+.nav li a
+{
+	background-color: #333;
+	border-right: 1px solid #000;
+	color: #eee;
+	display: block;
+	font-size: 14px;
+	padding: 20px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav li:first-child a   /* Pseudo-selectores introducidos en CSS3 */
+{
+  border-left: 1px solid #000;
+}
+
+.nav li a:hover 
+{
+	background-color: #444;
+}
+
+
+.main-content
+{
+	clear: both;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.main-content .content
+{
+	float: left;
+	width: 700px;
+}
+
+.sidebar-right
+{
+	float: right;
+	-webkit-box-shadow: -7px 0px 16px -12px #CCC;
+	box-shadow: -7px 0px 16px -12px #CCC;
+	width: 324px;
+}
+
+.block-title
+{
+  padding: 0 20px;
+}
+.block-title h2
+{
+  color: #4868B3;
+  display: inline;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.block-content
+{
+	margin: 20px;
+}
+.block-content .text 
+{
+  line-height: 1.8;
+  margin: 15px 0 10px;
+  overflow: hidden;
+}
+.block-content .text ul 
+{
+	margin-bottom: 20px;
+}
+
+.tagline
+{
+  color: #4868B3;
+  font-style: italic;
+	line-height: 1.8;
+}
+
+.graybox
+{
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+
+.footer
+{
+	color: #eee;
+	background-color: #333;
+  border-top: 3px solid #FDD51B;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.copyright
+{
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
